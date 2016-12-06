@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "WMSideslipController.h"
+#import "WMMainController.h"
+#import "WMLeftController.h"
+#import "WMRightController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +20,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //1.创建子控制器
+    WMLeftController *leftVC = [WMLeftController new];
+    WMMainController *mainVC = [WMMainController new];
+    WMRightController *rightVC = [WMRightController new];
+    
+    //2.创建装三个视图控制器的视图控制器
+    WMSideslipController *sideslipVC = [[WMSideslipController alloc] initWithLeftViewController:leftVC andMainViewController:mainVC andRightViewController:rightVC];
+    
+    //2.1设置滑动速率
+    sideslipVC.speed = 0.5;
+    
+    //2.2设置点击手势回到主控制器可用
+    sideslipVC.backMainViewControllerTap.enabled = YES;
+    
+    self.window.rootViewController = sideslipVC;
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

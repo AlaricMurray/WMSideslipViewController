@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WMMainController.h
 //  WMSideslipViewController
 //
 //  Created by 王猛 on 16/3/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WMMainController : UIViewController
 
 @end
-

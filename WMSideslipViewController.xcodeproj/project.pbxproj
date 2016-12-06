@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0CD8D7A81C9D21CF00E8ED52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7A71C9D21CF00E8ED52 /* main.m */; };
 		0CD8D7AB1C9D21CF00E8ED52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7AA1C9D21CF00E8ED52 /* AppDelegate.m */; };
-		0CD8D7AE1C9D21CF00E8ED52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7AD1C9D21CF00E8ED52 /* ViewController.m */; };
-		0CD8D7B11C9D21CF00E8ED52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8D7AF1C9D21CF00E8ED52 /* Main.storyboard */; };
 		0CD8D7B31C9D21CF00E8ED52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8D7B21C9D21CF00E8ED52 /* Assets.xcassets */; };
-		0CD8D7B61C9D21CF00E8ED52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8D7B41C9D21CF00E8ED52 /* LaunchScreen.storyboard */; };
 		0CD8D7C11C9D21CF00E8ED52 /* WMSideslipViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7C01C9D21CF00E8ED52 /* WMSideslipViewControllerTests.m */; };
+		0CD8D7CF1C9D222F00E8ED52 /* WMMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7CE1C9D222F00E8ED52 /* WMMainController.m */; };
+		0CD8D7D21C9D223B00E8ED52 /* WMLeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7D11C9D223B00E8ED52 /* WMLeftController.m */; };
+		0CD8D7D51C9D224600E8ED52 /* WMRightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7D41C9D224600E8ED52 /* WMRightController.m */; };
+		0CD8D7D81C9D22C700E8ED52 /* WMSideslipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8D7D71C9D22C700E8ED52 /* WMSideslipController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +32,19 @@
 		0CD8D7A71C9D21CF00E8ED52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CD8D7A91C9D21CF00E8ED52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CD8D7AA1C9D21CF00E8ED52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CD8D7AC1C9D21CF00E8ED52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0CD8D7AD1C9D21CF00E8ED52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0CD8D7B01C9D21CF00E8ED52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CD8D7B21C9D21CF00E8ED52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0CD8D7B51C9D21CF00E8ED52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD8D7B71C9D21CF00E8ED52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD8D7BC1C9D21CF00E8ED52 /* WMSideslipViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMSideslipViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD8D7C01C9D21CF00E8ED52 /* WMSideslipViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMSideslipViewControllerTests.m; sourceTree = "<group>"; };
 		0CD8D7C21C9D21CF00E8ED52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD8D7CD1C9D222F00E8ED52 /* WMMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMainController.h; path = ../MainController/WMMainController.h; sourceTree = "<group>"; };
+		0CD8D7CE1C9D222F00E8ED52 /* WMMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMainController.m; path = ../MainController/WMMainController.m; sourceTree = "<group>"; };
+		0CD8D7D01C9D223B00E8ED52 /* WMLeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLeftController.h; sourceTree = "<group>"; };
+		0CD8D7D11C9D223B00E8ED52 /* WMLeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLeftController.m; sourceTree = "<group>"; };
+		0CD8D7D31C9D224600E8ED52 /* WMRightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRightController.h; sourceTree = "<group>"; };
+		0CD8D7D41C9D224600E8ED52 /* WMRightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRightController.m; sourceTree = "<group>"; };
+		0CD8D7D61C9D22C700E8ED52 /* WMSideslipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSideslipController.h; sourceTree = "<group>"; };
+		0CD8D7D71C9D22C700E8ED52 /* WMSideslipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSideslipController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +88,9 @@
 			children = (
 				0CD8D7A91C9D21CF00E8ED52 /* AppDelegate.h */,
 				0CD8D7AA1C9D21CF00E8ED52 /* AppDelegate.m */,
-				0CD8D7AC1C9D21CF00E8ED52 /* ViewController.h */,
-				0CD8D7AD1C9D21CF00E8ED52 /* ViewController.m */,
-				0CD8D7AF1C9D21CF00E8ED52 /* Main.storyboard */,
+				0CD8D7CB1C9D21FA00E8ED52 /* MainController */,
+				0CD8D7CC1C9D222200E8ED52 /* SubControllers */,
 				0CD8D7B21C9D21CF00E8ED52 /* Assets.xcassets */,
-				0CD8D7B41C9D21CF00E8ED52 /* LaunchScreen.storyboard */,
 				0CD8D7B71C9D21CF00E8ED52 /* Info.plist */,
 				0CD8D7A61C9D21CF00E8ED52 /* Supporting Files */,
 			);
@@ -109,6 +112,28 @@
 				0CD8D7C21C9D21CF00E8ED52 /* Info.plist */,
 			);
 			path = WMSideslipViewControllerTests;
+			sourceTree = "<group>";
+		};
+		0CD8D7CB1C9D21FA00E8ED52 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8D7D61C9D22C700E8ED52 /* WMSideslipController.h */,
+				0CD8D7D71C9D22C700E8ED52 /* WMSideslipController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		0CD8D7CC1C9D222200E8ED52 /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8D7CD1C9D222F00E8ED52 /* WMMainController.h */,
+				0CD8D7CE1C9D222F00E8ED52 /* WMMainController.m */,
+				0CD8D7D01C9D223B00E8ED52 /* WMLeftController.h */,
+				0CD8D7D11C9D223B00E8ED52 /* WMLeftController.m */,
+				0CD8D7D31C9D224600E8ED52 /* WMRightController.h */,
+				0CD8D7D41C9D224600E8ED52 /* WMRightController.m */,
+			);
+			path = SubControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +180,7 @@
 		0CD8D79B1C9D21CF00E8ED52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WM;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ShiJiDuHui;
 				TargetAttributes = {
@@ -191,9 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD8D7B61C9D21CF00E8ED52 /* LaunchScreen.storyboard in Resources */,
 				0CD8D7B31C9D21CF00E8ED52 /* Assets.xcassets in Resources */,
-				0CD8D7B11C9D21CF00E8ED52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD8D7AE1C9D21CF00E8ED52 /* ViewController.m in Sources */,
+				0CD8D7D51C9D224600E8ED52 /* WMRightController.m in Sources */,
+				0CD8D7D21C9D223B00E8ED52 /* WMLeftController.m in Sources */,
+				0CD8D7D81C9D22C700E8ED52 /* WMSideslipController.m in Sources */,
+				0CD8D7CF1C9D222F00E8ED52 /* WMMainController.m in Sources */,
 				0CD8D7AB1C9D21CF00E8ED52 /* AppDelegate.m in Sources */,
 				0CD8D7A81C9D21CF00E8ED52 /* main.m in Sources */,
 			);
@@ -234,25 +261,6 @@
 			targetProxy = 0CD8D7BD1C9D21CF00E8ED52 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0CD8D7AF1C9D21CF00E8ED52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CD8D7B01C9D21CF00E8ED52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0CD8D7B41C9D21CF00E8ED52 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CD8D7B51C9D21CF00E8ED52 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0CD8D7C31C9D21CF00E8ED52 /* Debug */ = {
